@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+#lezioni .row img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+#lezioni {
+  text-align: center;
+}
+#steps{
+  text-align: center;
+}
+#steps > .row > h1{
+  margin-bottom: 30px;
+}
+#why {
+  text-align: center;
+}
+#why .row img {
+  background-color:#428bca;
+  border-radius:50%;
+  padding-top: 30;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.container.grey{
+  background-color: #f9f9f9;
+}
+img{
+  height: 200px;
+}
+.clear {
+  clear:both;
+}
+
+@media screen and (max-width:768px) {
+  .row{
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 50px;
+  }
+  #why .row img{
+    margin-bottom: 20px;
+  }
+  .row > .first {
+    margin-top: 10px;
+  }
+  .row > .second{
+    margin-top: 50px;
+  }
+  .row > .third{
+    margin-top: 50px;
+  }
+  img {
+    height: 150px;
+    margin-top: 40px;
+  }
+}
+@media screen and (min-width:769px) and (max-width:992px){
+  .row{
+    margin: 0 auto;
+    width: 85%;
+    margin-bottom: 50px;
+  }
+  #why .row img{
+    margin-bottom: 20px;
+  }
+  .row > .second{
+    margin-top: 30px;
+  }
+  .row > .third{
+    margin-top: 30px;
+  }
+  img {
+    margin-top: 60px;
+  }
+}
